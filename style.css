@@ -1,0 +1,96 @@
+/*style.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #45de8f;
+  color: #bc2020;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150vw;
+  height: 150vh;
+}
+.title {
+  color: #20c9df;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.temperature-converter {
+  background: #a3b51c;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 25px 20px;
+  min-width: 320px;
+  width: 100%;
+  height: auto;
+}
+.result {
+  text-align: center;
+  margin: 20px 0;
+}
+.result-heading {
+  color: #85864b;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.celsius-value {
+  border-bottom: 2px solid #cb15bc;
+  padding: 10px;
+}
+label {
+  color: #2ac68a;
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+}
+input,
+select {
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #193935;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+input:focus {
+  border: 1px solid #dee21d;
+}
+.degree-type {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.degree-field {
+  display: flex;
+  flex-direction: column;
+  width: 46%;
+}
+option {
+  background-color: #100eaa;
+  color: #7a07ed;
+}
+#convert-btn {
+  background: linear-gradient(to bottom, #b2a3ff, #2e454d);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #10a5e5;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  padding: 12px 80px;
+  transition: all 0.3s ease-in;
+}
+#convert-btn:hover {
+  background: linear-gradient(to bottom, #41b620, #4bb12f);
+}
